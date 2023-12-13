@@ -11,7 +11,8 @@ body{
 }
 
 header{
-    padding-top: 1px;
+    padding: 20px;
+    padding-bottom: 10px;
     font-family: 'Ephesis', cursive;
 
     display: flex;
@@ -23,6 +24,49 @@ header, footer{
     color: white;
 
     background-color: #f42d59;
+}
+
+header > nav{
+    width: 65px;
+    height: 65px;  
+}
+
+#divheader1{
+    position: absolute;
+    background-color: white;
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+#divheader2{
+    position: absolute;
+    background-color: #f42d59;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    
+    margin-left: 10px;
+    margin-top: 10px;
+}
+#divheader3{
+    position: absolute;
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#divheader4{
+    position: absolute;
+    background-color: #f42d59;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+
+    margin-left: 28px;
+    margin-top: 28px;
 }
 
 img{
@@ -47,7 +91,7 @@ article{
     align-items: center ;
 }
 
-article:last-of-type{
+#articleForm{
     height: 440px;
     margin: 40px;
 }
