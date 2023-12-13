@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&family=Heebo&display=swap');
+html, body{
+    height: 100%;
+}
+
+body{
+    margin: 0px;
+    background-color: #d9d9d9;
+    font-family: 'Heebo', sans-serif;
+}
+
+header{
+    padding-top: 1px;
+    font-family: 'Ephesis', cursive;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header, footer{
+    color: white;
+
+    background-color: #f42d59;
+}
+
+img{
+    width: 60px;
+    border-radius: 100%;
+}
+
+main > img{
+    width: 100%;
+    border-radius: 0%;
+}
+
+article{
+    background-color: white;
+    height: 370px;
+    margin: 90px;
+    padding: 20px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+article:last-of-type{
+    height: 440px;
+    margin: 40px;
+}
+
+#ageinput{
+    width: 40px;
+}
+
+textarea{
+    height: 150px;
+    width: 100%;
+}
+
+#nameimput, #emailimput{
+    width: 100%;
+} 
+
+#submitbuttom{
+    background-color: #f42d59;
+    color: white;
+
+    border: 0px;
+    padding: 6px;
+    width: 100%;
+}
+
+#submitbuttom:hover{
+    background-color: #d9d9d9;
+    color: #f42d59;
+}
+
+footer{
+    font-size: 14px;
+    padding-top:25px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer > p > a{
+    color: white;
+}
+
+#div1footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#div1footer > a > img{
+    width: 40px;
+    margin: 5px;
+}

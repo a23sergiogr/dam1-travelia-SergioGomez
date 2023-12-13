@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travelia</title>
     <link rel="favicon" href="Assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -39,13 +40,13 @@
             <h1>CONTACT US</h1>
             <form>  
                 <label for="name">
-                    <input type="text" name="name" value="">
+                    <input type="text" name="name" value="" id="nameimput">
                 </label><br>
                 <label for="email">
-                    <input type="text" name="email" value="">
+                    <input type="text" name="email" value="" id="emailimput">
                 </label><br>
                 <label for="age">Age 
-                    <input type="number" name="email" value="">
+                    <input type="number" name="email" value="" id="ageinput">
                 </label><br>
                 <strong>Gender</strong><br>
                 <label><input type="radio" name="gender" value="male"> Male</label>
@@ -53,15 +54,17 @@
                 <label><input type="radio" name="gender" value="nonBinary" checked> Non binary</label><br>
                 Comments<br>
                 <textarea id="comment" name="comment" cols="40" rows="10"></textarea><br>
-                <input type="button" name="save" value="Submit"/>
+                <input type="button" name="save" value="SUBMIT" id="submitbuttom"/>
             </form>
         </article>
     </main>
     <footer>
-        <a href="http://www.telegram.com" target="_blank" rel="telegram"><img src="img/telegram.png" alt="telegram"></a>
-        <a href="http://www.instagram.com" target="_blank" rel="telegram"><img src="img/instagram.png" alt="instagram"></a>
-        <a href="http://www.youtube.com" target="_blank" rel="telegram"><img src="img/youtube.png" alt="youtube"></a>
-        <a href="http://www.tiktok.com" target="_blank" rel="telegram"><img src="img/tiktok.png" alt="tiktok"></a>  
+        <div id="div1footer"> 
+            <a href="http://www.telegram.com" target="_blank" rel="telegram"><img src="img/telegram.png" alt="telegram"></a>
+            <a href="http://www.instagram.com" target="_blank" rel="telegram"><img src="img/instagram.png" alt="instagram"></a>
+            <a href="http://www.youtube.com" target="_blank" rel="telegram"><img src="img/youtube.png" alt="youtube"></a>
+            <a href="http://www.tiktok.com" target="_blank" rel="telegram"><img src="img/tiktok.png" alt="tiktok"></a>  
+        </div>
         <p>Images by rowpixel.com, juicy_fish and wirestock on <a href="http://www.freepik.es" target="_blank" rel="freepik">Freepik</a></p>
         <p>2023 Sergio Gómez Rial</p>
     </footer>
