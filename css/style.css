@@ -79,11 +79,19 @@ main > img{
     border-radius: 0%;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
 article{
     background-color: white;
-    height: 370px;
-    margin: 90px;
-    padding: 20px;
+    height: 350px;
+    width: 180px;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     
     display: flex;
     flex-direction: column;
@@ -92,8 +100,16 @@ article{
 }
 
 #articleForm{
-    height: 440px;
-    margin: 40px;
+    height: 560px;
+    width: 260px;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #ageinput{
@@ -114,6 +130,7 @@ textarea{
     color: white;
 
     border: 0px;
+    margin-top: 20px;
     padding: 6px;
     width: 100%;
 }

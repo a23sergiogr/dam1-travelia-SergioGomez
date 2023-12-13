@@ -53,11 +53,13 @@
                 <label for="age">Age 
                     <input type="number" name="email" value="" id="ageinput">
                 </label><br>
-                <strong>Gender</strong><br>
-                <label><input type="radio" name="gender" value="male"> Male</label>
-                <label><input type="radio" name="gender" value="female"> Female</label>
-                <label><input type="radio" name="gender" value="nonBinary" checked> Non binary</label><br>
-                Comments<br>
+                <div id="divgender">   
+                    <strong>Gender</strong><br>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                    <label><input type="radio" name="gender" value="nonBinary" checked> Non binary</label><br>
+                </div>
+                <br>Comments<br>
                 <textarea id="comment" name="comment" cols="40" rows="10"></textarea><br>
                 <input type="button" name="save" value="SUBMIT" id="submitbuttom"/>
             </form>
