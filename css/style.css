@@ -137,6 +137,10 @@ footer > p > a{
     color: white;
 }
 
+footer > p > a:hover{
+    color: #d9d9d9;
+}
+
 #div1footer{
     display: flex;
     flex-direction: row;
