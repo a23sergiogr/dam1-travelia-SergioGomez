@@ -22,7 +22,6 @@ header{
 
 header, footer{
     color: white;
-
     background-color: #f42d59;
 }
 
@@ -38,6 +37,7 @@ header > nav{
     height: 65px;
     border-radius: 100%;
 }
+
 #divheader2{
     position: absolute;
     background-color: #f42d59;
@@ -48,6 +48,7 @@ header > nav{
     margin-left: 10px;
     margin-top: 10px;
 }
+
 #divheader3{
     position: absolute;
     background-color: white;
@@ -58,6 +59,7 @@ header > nav{
     margin-left: 20px;
     margin-top: 20px;
 }
+
 #divheader4{
     position: absolute;
     background-color: #f42d59;
@@ -69,20 +71,15 @@ header > nav{
     margin-top: 28px;
 }
 
-img{
-    width: 60px;
-    border-radius: 100%;
-}
-
-main > img{
-    width: 100%;
-    border-radius: 0%;
-}
-
 main{
     display: flex;
     flex-direction: column;
     align-items: center ;
+}
+
+img{
+    width: 60px;
+    border-radius: 100%;
 }
 
 article{
@@ -99,10 +96,17 @@ article{
     align-items: center ;
 }
 
+main > img{
+    width: 100%;
+    border-radius: 0%;
+}
+
 #articleForm{
     height: 560px;
-    width: 260px;
-    padding: 20px;
+    width: 250px;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     padding-bottom: 0px;
 }
 
@@ -112,6 +116,10 @@ form{
     justify-content: space-between;
 }
 
+#nameimput, #emailimput{
+    width: 100%;
+} 
+
 #ageinput{
     width: 40px;
 }
@@ -120,10 +128,6 @@ textarea{
     height: 150px;
     width: 100%;
 }
-
-#nameimput, #emailimput{
-    width: 100%;
-} 
 
 #submitbuttom{
     background-color: #f42d59;
@@ -167,4 +171,26 @@ footer > p > a:hover{
 #div1footer > a > img{
     width: 40px;
     margin: 5px;
+}
+
+@media only screen and (min-width: 770px){
+    section{
+        display: flex;
+        flex-direction: row;
+        align-items: center ;
+    }
+    
+    article{
+        margin: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+    #articleForm{
+        height: 560px;
+        width: 280px;
+        padding: 50px;
+        padding-top: 20px;
+        padding-bottom: 0px;
+    }
 }
